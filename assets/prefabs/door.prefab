@@ -1,0 +1,32 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Door"
+    },
+    "Item": {
+        "icon": "engine:items#door",
+        "stackId": "door",
+        "consumedOnUse": true,
+        "usage": "ON_BLOCK"
+    },
+    "Door": {
+        "topBlockFamily": "CoreBlocks:DoorTop",
+        "bottomBlockFamily": "CoreBlocks:DoorBottom",
+        "openSound": "CoreAssets:DoorOpen",
+        "closeSound": "CoreAssets:DoorClose",
+        "doorRegionPrefab": "CoreBlocks:doorRegion"
+    },
+    "Health": {
+        "currentHealth": 5,
+        "maxHealth": 5,
+        "regenRate": 1,
+        "waitBeforeRegen": 2,
+        "destroyEntityOnNoHealth": true
+    },
+    "BlockDropGrammar": {
+        "itemDrops": ["CoreBlocks:door"]
+    },
+    "ActAsBlock": {
+        "block": "CoreBlocks:DoorTop"
+    }
+}

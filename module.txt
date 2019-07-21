@@ -1,0 +1,10 @@
+{
+    "id" : "CoreBlocks",
+    "version" : "1.0.0-SNAPSHOT",
+    "displayName" : "Core Blocks",
+    "description" : "This module adds simple blocks like stone, water, grass, and torches",
+    "dependencies" : [
+        {"id" : "CoreAssets", "minVersion" : "1.0.0"}
+    ],
+    "serverSideOnly" : false
+}

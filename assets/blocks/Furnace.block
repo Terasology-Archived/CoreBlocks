@@ -1,0 +1,13 @@
+/**
+ * A chest is interesting for two reasons: It is asymmetrical (front texture differs) and should store stuff
+ */
+{
+    "tiles": {
+        "sides": "CoreAssets:FurnaceSides",
+        "front": "CoreAssets:FurnaceFront",
+        "topBottom": "CoreAssets:FurnaceTopBottom"
+    },
+    "entity": {
+        "prefab": "CoreBlocks:chest"
+    }
+}

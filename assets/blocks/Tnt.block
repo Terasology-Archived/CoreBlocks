@@ -1,0 +1,13 @@
+/**
+ * Tnt is a block that can go boom
+ */
+{
+    "tiles": {
+        "top": "CoreAssets:TntTop",
+        "bottom": "CoreAssets:TntBottom",
+        "sides": "CoreAssets:Tnt"
+    },
+    "entity": {
+        "prefab": "CoreBlocks:TNT"
+    }
+}

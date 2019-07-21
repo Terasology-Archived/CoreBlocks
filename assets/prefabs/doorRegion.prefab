@@ -1,0 +1,27 @@
+{
+    "DisplayName": {
+        "name": "Door"
+    },
+    "Door": {
+        "topBlockFamily": "CoreBlocks:DoorTop",
+        "bottomBlockFamily": "CoreBlocks:DoorBottom",
+        "openSound": "CoreAssets:DoorOpen",
+        "closeSound": "CoreAssets:DoorClose"
+    },
+    "Health": {
+        "currentHealth": 5,
+        "maxHealth": 5,
+        "regenRate": 1,
+        "waitBeforeRegen": 2,
+        "destroyEntityOnNoHealth": true
+    },
+    "BlockDropGrammar": {
+        "itemDrops": [
+            "CoreBlocks:door"
+        ]
+    },
+    "ActAsBlock": {
+        "block": "CoreBlocks:DoorTop"
+    },
+    "Network": {}
+}
