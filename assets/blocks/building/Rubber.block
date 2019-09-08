@@ -2,7 +2,7 @@
  * Rubber is bouncy
  */
 {
-    "basedOn": "CoreBlocks:rock",
+    "basedOn": "CoreAssets:rock",
     "displayName": "Rubber",
     "restitution": 0.9,
     "mass": 20,
