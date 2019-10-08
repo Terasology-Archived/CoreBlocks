@@ -1,8 +1,8 @@
 {
     "basedOn": "CoreAssets:wood",
     "displayName": "Birch Log",
+    "tile": "CoreAssets:BirchBark",
     "tiles": {
-        "topBottom": "CoreAssets:BirchTrunk",
-        "sides": "CoreAssets:BirchBark"
+        "topBottom": "CoreAssets:BirchTrunk"
     }
 }

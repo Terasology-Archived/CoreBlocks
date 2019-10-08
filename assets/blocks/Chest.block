@@ -6,8 +6,8 @@
     "attachmentAllowed": false,
     "family": "horizontal",
     // Graphics
+    "tile":"CoreAssets:ChestSides",
     "tiles": {
-        "sides": "CoreAssets:ChestSides",
         "front": "CoreAssets:ChestFront",
         "topBottom": "CoreAssets:ChestTopBottom"
     },

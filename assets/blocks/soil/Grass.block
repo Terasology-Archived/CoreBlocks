@@ -8,11 +8,11 @@
     "basedOn": "CoreAssets:soil",
     "grass": true,
     // Graphics
+    "tile": "CoreAssets:Grass",
     "tiles": {
         // "tiles" being present means we'll override some with a different graphic
         "sides": "CoreAssets:GrassSide",
         // sides means all four (not top/bottom) and can itself be overridden
-        "top": "CoreAssets:Grass",
         "bottom": "CoreAssets:Dirt"
         // Since we add all images to the same map we don't need to worry about dir levels
     },

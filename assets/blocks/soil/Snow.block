@@ -4,10 +4,10 @@
  */
 {
     "basedOn": "CoreAssets:soil",
+    "tile":"CoreAssets:Snow",
     "tiles": {
         "sides": "CoreAssets:SnowSide",
-        "bottom": "CoreAssets:Dirt",
-        "top": "CoreAssets:Snow"
+        "bottom": "CoreAssets:Dirt"
     },
     "sounds": "CoreAssets:snow"
 }

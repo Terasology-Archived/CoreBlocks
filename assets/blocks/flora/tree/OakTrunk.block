@@ -8,8 +8,8 @@
     "basedOn": "CoreAssets:wood",
     "displayName": "Oak Log",
     // Graphics
+    "tile": "CoreAssets:OakBark",
     "tiles": {
-        "sides": "CoreAssets:OakBark",
         "topBottom": "CoreAssets:OakTrunk"
     }
 }
