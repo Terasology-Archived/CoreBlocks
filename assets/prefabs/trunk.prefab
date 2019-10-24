@@ -4,7 +4,7 @@
         "name": "Trunk"
     },
     "Item": {
-        "icon": "engine:items#door",
+        "icon": "engine:items#trunk",
         "stackId": "trunk",
         "consumedOnUse": true,
         "usage": "ON_BLOCK"
