@@ -1,5 +1,5 @@
 /**
- * A chest is interesting for two reasons: It is asymmetrical (front texture differs) and should store stuff
+ * A trunk is interesting for two reasons: they are two blocks wide and are asymmetrical (front texture differs from the sides) 
  */
 {
     "basedOn": "CoreBlocks:Chest",
