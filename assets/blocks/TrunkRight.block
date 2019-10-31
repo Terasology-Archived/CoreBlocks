@@ -1,0 +1,17 @@
+/**
+ * A trunk is interesting for two reasons: they are two blocks wide and are asymmetrical (front texture differs from the sides) 
+ */
+{
+    "basedOn": "CoreBlocks:Chest",
+    "attachmentAllowed": false,
+    "family": "horizontal",
+    // Graphics
+    "tile":"CoreAssets:TrunkRightFront",
+    "tiles": {
+        "front": "CoreAssets:TrunkRightFront",
+        "back": "CoreAssets:TrunkRightBack",
+        "top": "CoreAssets:TrunkRightTop",
+        "bottom": "CoreAssets:TrunkRightBottom",
+        "sides": "CoreAssets:TrunkRightRight"
+    }
+}
