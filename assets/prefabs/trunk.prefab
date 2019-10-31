@@ -16,13 +16,6 @@
         "closeSound": "CoreAssets:DoorClose",
         "trunkRegionPrefab": "CoreBlocks:trunkRegion"
     },
-    "Health": {
-        "currentHealth": 5,
-        "maxHealth": 5,
-        "regenRate": 1,
-        "waitBeforeRegen": 2,
-        "destroyEntityOnNoHealth": true
-    },
     "BlockDropGrammar": {
         "itemDrops": ["CoreBlocks:trunk"]
     },

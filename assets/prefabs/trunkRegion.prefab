@@ -2,12 +2,6 @@
     "DisplayName": {
         "name": "Trunk"
     },
-    "Trunk": {
-        "leftBlockFamily": "CoreBlocks:TrunkLeft",
-        "rightBlockFamily": "CoreBlocks:TrunkRight",
-        "openSound": "CoreAssets:DoorOpen",
-        "closeSound": "CoreAssets:DoorClose"
-    },
     "Health": {
         "currentHealth": 5,
         "maxHealth": 5,
