@@ -1,0 +1,24 @@
+{
+    "parent": "engine:iconItem",
+    "DisplayName": {
+        "name": "Trunk"
+    },
+    "Item": {
+        "icon": "engine:items#trunk",
+        "stackId": "trunk",
+        "consumedOnUse": true,
+        "usage": "ON_BLOCK"
+    },
+    "Trunk": {
+        "leftBlockFamily": "CoreBlocks:TrunkLeft",
+        "rightBlockFamily": "CoreBlocks:TrunkRight",
+        "openSound": "CoreAssets:DoorOpen",
+        "closeSound": "CoreAssets:DoorClose",
+        "trunkRegionPrefab": "CoreBlocks:trunkRegion"
+    },
+    "BlockDropGrammar": {
+        "itemDrops": ["CoreBlocks:trunk"]
+    },
+    "Network": {
+    }
+}

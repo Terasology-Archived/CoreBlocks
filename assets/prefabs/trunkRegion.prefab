@@ -1,0 +1,112 @@
+{
+    "DisplayName": {
+        "name": "Trunk"
+    },
+    "Health": {
+        "currentHealth": 5,
+        "maxHealth": 5,
+        "regenRate": 1,
+        "waitBeforeRegen": 2,
+        "destroyEntityOnNoHealth": true
+    },
+    "BlockDropGrammar": {
+        "itemDrops": [
+            "CoreBlocks:trunk"
+        ]
+    },
+    "ActAsBlock": {
+        "block": "CoreBlocks:TrunkLeft"
+    },
+    "InventoryAccess": {
+        "input": {
+            "top": "0..59",
+            "bottom": "0..59",
+            "left": "0..29",
+            "right": "30..59",
+            "front": "0..59",
+            "back": "0..59"
+        },
+        "output": {
+            "top": "0..59",
+            "bottom": "0..59",
+            "left": "0..29",
+            "right": "30..59",
+            "front": "0..59",
+            "back": "0..59"
+        }
+    },
+    "Inventory": {
+        "privateToOwner": false,
+        "itemSlots": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ]
+    },
+    "RetainBlockInventory": {},
+    "PlaySoundAction": {
+        "sounds": "engine:click"
+    },
+    "InteractionTarget": {},
+    "InteractionScreen": {
+        "screen": "inventory:containerScreen"
+    },
+    "Network": {}
+}
