@@ -7,7 +7,7 @@
     "hardness": 0,
     "attachmentAllowed": false,
     "translucent": true,
-    "targetable": false,
+    "targetable": true,
     "penetrable": true,
     "shadowCasting": true,
     "replacementAllowed": true,
