@@ -16,5 +16,8 @@
     "shadowCasting": false,
     "replacementAllowed": true,
     "tint": [0.3, 0.2, 0.2],
-    "tile": "CoreAssets:Lava"
+    "tile": "CoreAssets:Lava",
+    "entity": {
+        "prefab": "CoreBlocks:lava"
+    }
 }
